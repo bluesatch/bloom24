@@ -19,6 +19,8 @@
     */
 }
 
+* { box-sizing: border-box;}
+
 /* tags */
 
 a {
@@ -28,12 +30,41 @@ a {
 body {
     margin: 0;
     padding: 0;
+    font-family: var(--font1);
 }
 
 /* classes */
 
+.box1-text {
+    color: #fff;
+}
+
+
+.btn {
+    padding: 4px 16px;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: var(--sec);
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+
 .clear {
     clear: both;
+}
+
+.clients-item {
+    margin-bottom: 20px;
+}
+
+.clients-list {
+    padding-left: 0;
+    list-style-type: none;
 }
 
 .container {
@@ -75,7 +106,50 @@ body {
     border-radius: 50%;
 }
 
-li.social-item {
+.laptop-image {
+    display: block;
+    margin-left: auto;
+    width: 90%;
+}
+
+.product {
+    margin: 0 40px 20px 0;
+    width: 275px;
+    height: 135px;
+    background-color: #444;
+    float: left;
+    border: 10px solid #b8bdd0;
+}
+
+.products {
+    width: 95%;
+    height: 336px;
+    border: 1px solid saddlebrown;
+}
+
+.sec2-box {
+    padding: 0 20px;
+    width: calc(100% / 3);
+    float: left;
+    /* border: 1px solid blue; */
+}
+
+.sec2-subheading {
+    color: var(--sec);
+    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.sec3-subheading {
+    color: var(--sec);
+    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.sec2-text {
+    color: #555;
+    font-size: calc(16px + (14 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.social-item {
     display: inline;
 }
 
@@ -88,16 +162,58 @@ li.social-item {
     width: 50%;
 }
 
+.sub-heading {
+    color: #fff;
+}
+
 .visually-hidden {
     display: none;
 }
 /* ids */
+
+#clientsBox, #productsBox {
+    padding: 0 20px;
+    float: left;
+}
+
+#clientsBox {
+    width: calc(100% / 3);
+    border: 1px solid green;
+}
+
+#productsBox {
+    width: calc((100% / 3) * 2);
+    border: 1px solid green;
+}
 
 #section1 {
     padding: 20px 0;
     width: 100%;
     background-color: var(--prim);
     background-image: var(--grad);
+}
+
+#section2 {
+    padding: 20px 0;
+    width: 100%;
+    background-color: var(--tert);
+    border-bottom: 8px solid var(--sec2Border);
+}
+
+#sec1Box1, #sec1Box2 {
+    margin: 0 50px;
+    padding: 10px;
+    width: 45%;
+    float: left;
+    /* border: 1px solid white; */
+}
+
+#sec1Box1 {
+    margin-left: 0;
+}
+
+#sec1Box2 {
+    margin-right: 0;
 }
 
 #topSocialList {
