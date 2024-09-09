@@ -1,0 +1,107 @@
+/* using margin, padding, float */
+
+:root {
+    --font1: "Noto Sans", sans-serif;
+    --font2: "Sofia", cursive;
+    --grad: radial-gradient(
+        at top center,
+        #ec8da1,
+        #e7718b
+    );
+    --icon: #fefefe;
+    --prim: #e7718b;
+    --sec: #26292e;
+    --sec2Border: #fce3e7;
+    --tert: #f4f4f6;
+    /* 
+    product box #444
+    product border #b8bdd0
+    */
+}
+
+/* tags */
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* classes */
+
+.clear {
+    clear: both;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid dodgerblue;
+}
+
+.header {
+    padding: 10px 0;
+    width: 100%;
+    background-color: var(--sec);
+}
+
+.heading, #topSocialNav {
+    float: left;
+}
+
+.heading {
+    margin: 0;
+    width: 50%;
+    color: #fff;
+    font-family: var(--font2);
+    text-transform: capitalize;
+}
+
+.icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    stroke-width: 0;
+    color: var(--sec);
+    stroke: var(--sec);
+    fill: var(--sec);
+}
+
+.icons {
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+li.social-item {
+    display: inline;
+}
+
+.social-item {
+    display: inline;
+}
+
+.social-nav {
+    margin: 0;
+    width: 50%;
+}
+
+.visually-hidden {
+    display: none;
+}
+/* ids */
+
+#section1 {
+    padding: 20px 0;
+    width: 100%;
+    background-color: var(--prim);
+    background-image: var(--grad);
+}
+
+#topSocialList {
+    padding-left: 0;
+    text-align: right;
+    list-style-type: none;
+}
