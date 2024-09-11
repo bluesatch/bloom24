@@ -165,15 +165,16 @@ body {
     font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.sec2-text {
+    color: #555;
+    font-size: calc(16px + (14 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
 .sec3-subheading {
     color: var(--sec);
     font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
-.sec2-text {
-    color: #555;
-    font-size: calc(16px + (14 - 16) * ((100vw - 300px) / (1600 - 300)));
-}
 
 .site-link {
     color: #fff;
