@@ -16,6 +16,8 @@
     /* 
     product box #444
     product border #b8bdd0
+
+    26292e
     */
 }
 
@@ -99,7 +101,7 @@ body {
 }
 
 .header {
-    padding: 10px 0;
+    padding: 4px 0;
     width: 100%;
     background-color: var(--sec);
 }
@@ -175,6 +177,11 @@ body {
     font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
+.section {
+    padding: 20px 0;
+    width: 100%;
+}
+
 
 .site-link {
     color: #fff;
@@ -228,15 +235,11 @@ body {
 }
 
 #section1 {
-    padding: 20px 0;
-    width: 100%;
     background-color: var(--prim);
     background-image: var(--grad);
 }
 
 #section2 {
-    padding: 20px 0;
-    width: 100%;
     background-color: var(--tert);
     border-bottom: 8px solid var(--sec2Border);
 }
